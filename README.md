@@ -8,6 +8,8 @@ Interactive Oxygen Gauge: A visual Plotly-based gauge that categorizes Dissolved
 Survival Threshold Alerts: Instant visual warnings for lethal oxygen levels or toxic ammonia spikes to prevent livestock loss. 
 Expert Growth Insights: Dynamic advice boxes that provide species-specific management tips based on AI predictions.
 
+Live Demo:https://smartaqua-123.streamlit.app/
+
 Tech Stack
 
     Frontend: Streamlit  
