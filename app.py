@@ -1,11 +1,11 @@
 import streamlit as st
-import pickle
+import joblib
 import time
 import numpy as np
 import plotly.graph_objects as go
 
-model=pickle.load(open("fish_model.pkl","rb"))
-scaler=pickle.load(open("scaler.pkl","rb"))
+model=joblib.load("fish_model.pkl","rb")
+scaler=joblib.load("scaler.pkl","rb")
 
 st.set_page_config(page_title="Smart Aqua: Oxygen & Health Advisor",page_icon="💧",layout="wide")
 st.markdown("""
